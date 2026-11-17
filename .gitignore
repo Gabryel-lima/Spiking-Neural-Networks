@@ -1,0 +1,17 @@
+# Lake: dependências (Mathlib ~7 GB) e artefatos de compilação
+/.lake/
+*.olean
+*.ilean
+*.olean.hash
+*.trace
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Arquivos locais do Claude Code
+.claude/
