@@ -15,10 +15,12 @@ probabilidade (distribuição de Bernoulli, binomial etc.). O projeto usa o
 ├── lean-toolchain        # versão do Lean usada (v4.36.0)
 ├── lakefile.lean         # configuração do Lake (declara o Mathlib)
 ├── lake-manifest.json    # versões exatas das dependências
-├── Main.lean             # executável de exemplo (lake exe snn)
+├── docs/                 # artigos de referência (PDF)
 ├── .vscode/              # configurações do VS Code (autocomplete do Lean)
 └── probabilidade/        # estudos de probabilidade (.lean + notas .md)
-    └── bernoulli/
+    ├── bernoulli/
+    ├── binomial/
+    └── independencia/
 ```
 
 ## Referências e créditos
@@ -117,11 +119,10 @@ lake exe cache get
 Na primeira vez o elan também baixa a toolchain `v4.36.0` automaticamente. Se o
 `lake` reclamar de dependências ausentes, rode antes `lake update`.
 
-### 4. Compilar
+### 4. Conferir
 
-```sh
-lake build
-```
+O projeto não define biblioteca nem executável: cada arquivo `.lean` é
+verificado individualmente (veja [Uso](#uso)).
 
 ## Uso
 
@@ -139,12 +140,6 @@ resultado. Para ver valores, use `#eval`/`#check`/`#print` no arquivo.
 
 Use sempre `lake env` para arquivos que importam Mathlib. Rodar
 `lean arquivo.lean` direto não conhece os caminhos das bibliotecas do projeto.
-
-### Rodar o executável de exemplo
-
-```sh
-lake exe snn
-```
 
 ### VS Code
 
