@@ -23,5 +23,5 @@ $$
 utilizando:
 
 $$
-P(X=x)=p^x(1-p)^{1-x}.
+P(X=x)=p^x(1-p)^{1-x}
 $$
