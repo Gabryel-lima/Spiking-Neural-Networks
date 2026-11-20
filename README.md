@@ -21,6 +21,40 @@ probabilidade (distribuição de Bernoulli, binomial etc.). O projeto usa o
     └── bernoulli/
 ```
 
+## Referências e créditos
+
+Os artigos abaixo embasam os estudos de redes neurais spiking deste repositório.
+Os arquivos originais estão disponíveis em [`docs/`](docs/).
+
+1. Ernst Niebur, "Generation of Synthetic Spike Trains with Defined Pairwise
+   Correlations", *Neural Computation*, 19(7), 1720-1738 (2007).
+   DOI: [10.1162/neco.2007.19.7.1720](https://doi.org/10.1162/neco.2007.19.7.1720).
+   Arquivo: [`01_2007_Generation of Synthetic Spike Trains with Defined Pairwise Correlations.pdf`](docs/01_2007_Generation%20of%20Synthetic%20Spike%20Trains%20with%20Defined%20Pairwise%20Correlations.pdf)
+
+2. Filip Ponulak e Andrzej Kasiński, "Supervised Learning in Spiking Neural
+   Networks with ReSuMe: Sequence Learning, Classification, and Spike Shifting",
+   *Neural Computation*, 22(2), 467-510 (2010).
+   DOI: [10.1162/neco.2009.11-08-901](https://doi.org/10.1162/neco.2009.11-08-901).
+   Arquivo: [`02_2010_Supervised Learning in Spiking Neural Networks with ReSuMe.pdf`](docs/02_2010_Supervised%20Learning%20in%20Spiking%20Neural%20Networks%20with%20ReSuMe.pdf)
+
+3. Friedemann Zenke e Surya Ganguli, "SuperSpike: Supervised Learning in
+   Multilayer Spiking Neural Networks", *Neural Computation*, 30(6),
+   1514-1541 (2018).
+   Arquivo: [`03_2018_SuperSpike_Supervised Learning in Multilayer Spiking Neural Networks.pdf`](docs/03_2018_SuperSpike_Supervised%20Learning%20in%20Multilayer%20Spiking%20Neural%20Networks.pdf)
+
+4. Emre O. Neftci, Hesham Mostafa e Friedemann Zenke, "Surrogate Gradient
+   Learning in Spiking Neural Networks: Bringing the Power of Gradient-based
+   Optimization to Spiking Neural Networks", *IEEE Signal Processing Magazine*,
+   36(6), 51-63 (2019).
+   Arquivo: [`04_2019_Surrogate Gradient Learning in Spiking Neural Networks.pdf`](docs/04_2019_Surrogate%20Gradient%20Learning%20in%20Spiking%20Neural%20Networks.pdf)
+
+5. Eimantas Ledinauskas, Julius Ruseckas, Alfonsas Juršėnas e Giedrius Buračas,
+   "Training Deep Spiking Neural Networks", preprint arXiv:2006.04436 (2020).
+   Arquivo: [`05_2020_Training Deep Spiking Neural Networks.pdf`](docs/05_2020_Training%20Deep%20Spiking%20Neural%20Networks.pdf)
+
+Esta seção fornece crédito bibliográfico aos autores originais; ela não atribui
+a autoria dos artigos ou dos resultados a este projeto.
+
 ## Requisitos
 
 - Linux, macOS ou Windows (WSL recomendado), com `git` e `curl`.
